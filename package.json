@@ -1,31 +1,14 @@
 {
-  "name": "smbpndk-docs",
-  "version": "1.0.0",
-  "description": "SmbPndk Documentation",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
-  },
-  "author": "Shu Ding <g@shud.in>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
-  },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
-  "dependencies": {
-    "next": "^13.2.3",
-    "nextra": "latest",
-    "nextra-theme-docs": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "18.11.10",
-    "typescript": "^4.9.3"
-  }
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "^15.0.3",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"nextra": "^3.2.4",
+		"nextra-theme-docs": "^3.2.4"
+	}
 }

@@ -2,13 +2,13 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>SmbPndk Documentation</span>,
+  logo: <span>smbCloud Documentation</span>,
   project: {
-    link: 'https://github.com/smbpndk/smbpndk-cli',
+    link: 'https://github.com/smbcloudXYZ/smbcloud-cli',
   },
-  docsRepositoryBase: 'https://github.com/smbpndk/smbpndk-docs/tree/main',
+  docsRepositoryBase: 'https://github.com/smbcloudXYZ/smbcloud-docs/tree/main',
   footer: {
-    text: 'SmbPndk',
+    text: 'smbCloud',
   },
 }
 
