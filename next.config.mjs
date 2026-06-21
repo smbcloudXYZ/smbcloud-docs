@@ -7,5 +7,8 @@ const withNextra = nextra({
 })
 
 export default withNextra({
-  reactStrictMode: true
+  reactStrictMode: true,
+  // SSR deploy: produce a self-contained server bundle in .next/standalone
+  // that smbCloud rsyncs and runs under PM2 (nextjs-ssr flow).
+  output: 'standalone'
 })
