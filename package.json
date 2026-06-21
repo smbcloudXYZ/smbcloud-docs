@@ -1,6 +1,7 @@
 {
   "scripts": {
     "dev": "next",
+    "sync:developer": "node scripts/sync-developer-docs.mjs",
     "build": "next build",
     "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
     "start": "next start",
